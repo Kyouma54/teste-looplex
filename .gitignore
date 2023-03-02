@@ -13,6 +13,7 @@ node_modules
 /target
 /out-tsc
 /build
+/out
 # dependencies
 /node_modules
 /media/*.mp4
