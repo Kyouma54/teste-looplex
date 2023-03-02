@@ -1,0 +1,57 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+# Ignore node_modules folder
+node_modules
+# Ignore Session data
+*.data.json
+# managed by open-wa
+**.data.json
+**.node-persist**
+# end managed by open-wa
+# compiled output
+/dist
+/tmp
+/target
+/out-tsc
+/build
+# dependencies
+/node_modules
+/media/*.mp4
+/media/*.gif
+/media/*.mp3
+# IDEs and editors
+/.idea
+.iml
+.project
+.classpath
+.c9/
+.settings/
+*.iml
+*.launch
+*.sublime-workspace
+*.iml
+*.log
+/package-lock.json
+# IDE - VSCode
+.vscode
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+# e2e
+/e2e/*.js
+/e2e/*.map
+# System Files
+.DS_Store
+Thumbs.db
+
+# managed by open-wa
+**_IGNORE_**
+# end managed by open-wa
